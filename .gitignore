@@ -1,0 +1,61 @@
+# built application files
+*.apk
+*.ap_
+
+# gradle
+.gradle/
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# OSX bullshit
+.DS_Store
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# PhpStorm
+.idea
+_backend/_cake/
+
+# Android Studio
+build/
+app/build/
+_apks/
+gradle/
+gradlew
+gradlew.bat
