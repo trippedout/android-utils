@@ -27,7 +27,6 @@ def gitUrl = 'https://github.com/trippedout/android-utils.git'   // Git reposito
 
 install {
     repositories.mavenInstaller {
-        // This generates POM.xml with proper parameters
         pom {
             project {
                 groupId 'net.trippedout'
