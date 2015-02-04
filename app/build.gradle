@@ -38,7 +38,6 @@ install {
                 name 'simple library with some android utils to help speed development'
                 url siteUrl
 
-                // Set your license
                 licenses {
                     license {
                         name 'The Apache Software License, Version 2.0'
