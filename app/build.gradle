@@ -34,7 +34,7 @@ install {
                 packaging 'aar'
 
                 // Add your description here
-                name 'simple library with some android utils to help speed development'
+                name "simple library with some android utils to help speed development"
                 url siteUrl
 
                 licenses {
@@ -81,6 +81,7 @@ bintray {
 
 dependencies {
 //    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.mcxiaoke.volley:library:1.0.10'
 }
 
 task sourcesJar(type: Jar) {
